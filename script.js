@@ -97,3 +97,40 @@
 //     console.log('---');
 // }
 
+// task 11
+
+// let test = -1;
+//
+// if (test) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+
+// task 12
+
+// let day = 32;
+//
+// if (day >= 1 && day <=10) {
+//     console.log('первая декада');
+// } else if (day >= 11 && day <=20) {
+//     console.log('вторая декада');
+// } else if (day >= 21 && day <= 31) {
+//     console.log('третья декада');
+// } else {
+//     console.log('дата не существует');
+// }
+
+// task 13
+
+// let day = 32;
+//
+// if (day >= 1 && day <=10) {
+//     console.log('первая декада');
+// } else if (day >= 11 && day <=20) {
+//     console.log('вторая декада');
+// } else if (day >= 21 && day <= 31) {
+//     console.log('третья декада');
+// } else {
+//     throw new Error('такой даты не существует');
+// }
