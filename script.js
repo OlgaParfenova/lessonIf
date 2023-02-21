@@ -203,3 +203,339 @@
 // } else {
 //     alert('Доступ запрещён');
 // }
+
+// task 21
+
+// let age = 21;
+// let adult;
+//
+// if (age >= 18) {
+//     adult = true;
+// } else {
+//     adult = false;
+// }
+//
+// console.log(adult);
+
+// task 22
+
+// let age = 17;
+// let adult;
+//
+// if (age >= 18) {
+//     adult = true;
+// } else {
+//     adult = false;
+// }
+//
+// console.log(adult);
+
+// task 23
+
+// let age = 17;
+// let adult;
+//
+// if (age >= 18) {
+//     adult = true;
+// } else {
+//     adult = false;
+// }
+//
+// console.log(adult);
+
+// task 24
+
+// let age = 17;
+// let res;
+//
+// if (age >= 18) {
+//     if (age <= 23) {
+//         res = 'от 18 до 23';
+//     } else {
+//         res = 'больше 23';
+//     }
+// } else {
+//     res = 'меньше 18';
+// }
+//
+// console.log(res);
+
+// task 25
+
+// let age = 19;
+// let res;
+//
+// if (age >= 18) {
+//     if (age <= 23) {
+//         res = 'от 18 до 23';
+//     } else {
+//         res = 'больше 23';
+//     }
+// } else {
+//     res = 'меньше 18';
+// }
+//
+// console.log(res);
+
+// task 26
+
+// let min = 47;
+//
+// if (min >=0 && min <= 19) {
+//     console.log('первая треть');
+// }
+//
+// if (min >= 20 && min <= 39) {
+//     console.log('вторая треть');
+// }
+//
+// if (min >= 40 && min <= 59) {
+//     console.log('третья треть');
+// }
+
+// task 27
+
+// let arr = [4, 8, 10];
+//
+// if (arr.length === 3) {
+//     console.log(arr.reduce((a, b) => a + b));
+// }
+
+// task 28
+
+// let str = 'avei';
+// let start = str[0];
+//
+// if (start == 'a') {
+//     console.log('!');
+// }
+
+// task 29
+
+// let str = 'frew';
+// let end = str[str.length - 1];
+//
+// if (end == 'x') {
+//     console.log('!');
+// }
+
+// task 30
+
+// let str = 'befegg';
+// let start = str[0];
+//
+// if (start == 'a' || start == 'b') {
+//     console.log('!');
+// }
+
+// task 31
+
+// let num = 21430;
+// let str = String(num);
+// let last = str[str.length - 1];
+//
+// if (last == 0) {
+//     console.log('!')
+// }
+
+// task 32
+
+// let num = 38478;
+// let str = String(num);
+// let last = str[str.length - 1];
+//
+// if (last == 0 || last == 2 || last == 4 || last == 6 || last == 8) {
+//     console.log('even number');
+// } else {
+//     console.log('odd number');
+// }
+
+// task 33
+
+// let num = 265467;
+//
+// if ((num % 2) === 0) {
+//     console.log('even number');
+// } else {
+//     console.log('odd number');
+// }
+
+// task 34
+
+// let num = 9;
+//
+// if (num % 3 === 0) {
+//     console.log('число делится на 3');
+// } else {
+//     console.log('число не делится на 3');
+// }
+
+// task 35
+
+// let num1 = '1';
+// let num2 = '2';
+//
+// if (+num1 + +num2 === 3) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+
+// task 36
+
+// let num1 = '1';
+// let num2 = '2';
+//
+// if (Number(num1) + Number(num2) === 3) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+
+// task 37
+
+// let num = 7123;
+// let str = String(num);
+//
+// if (Number(str[0]) === 1) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+
+// task 38
+
+// let num = 123;
+// let str = String(num);
+//
+// if (+str[0] === 1) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+
+// task 39
+
+// let num = 123;
+// let str = String(num);
+//
+// if (+str[0] === 1) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+
+// task 40
+
+// let num = 12;
+// let str = String(num);
+//
+// if (str.length === 2) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+
+// task 41
+
+// let num = 12;
+// let str = String(num);
+//
+// if (str.length === 2) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+
+// task 42
+
+// let num = 12;
+//
+// if (String(num).length === 2) {
+//     console.log('+++');
+// } else {
+//     console.log('---');
+// }
+
+// task 43
+
+// let num = '124033'; // берем в кавычки, чтобы обращаться к цифрам
+//
+// let sum1 = +num[0] + +num[1] + +num[2];
+// let sum2 = +num[3] + +num[4] + +num[5];
+//
+// if (sum1 === sum2) {
+//     console.log('суммы равны');
+// } else {
+//     console.log('суммы не равны');
+// }
+
+// task 44
+
+// let month = 123;
+//
+// if (month >= 3 && month <= 5) {
+//     console.log('Весна');
+// } else if (month >= 6 && month <= 8) {
+//     console.log('Лето');
+// } else if (month >= 9 && month <= 11) {
+//     console.log('Осень');
+// } else if (month === 12 || month === 1 || month === 2) {
+//     console.log('Зима');
+// } else {
+//     console.log('Введите число от 1 до 12');
+// }
+
+// task 45
+
+// let str = 'tabcde';
+// let first = str[0];
+//
+// if (first === 'a') {
+//     console.log('yes');
+// } else {
+//     console.log('no');
+// }
+
+// task 46
+
+// let num = 45;
+// let first = String(num)[0];
+//
+// if (+first === 1 || +first === 2 || +first === 3) {
+//     console.log('yes');
+// } else {
+//     console.log('no');
+// }
+
+// task 47
+
+// let num3 = 693;
+//
+// let findSum = (num) => {
+//     let sum = String(num).split('').reduce((a, b) => +a + +b);
+//     return sum;
+// }
+//
+// console.log(findSum(num3));
+
+// task 48
+
+// const num6 = 435867;
+// const num7 = 126333;
+//
+// const compareNumSum = (num) => {
+//
+//     let str = String(num);
+//     let strFirstSum = Number(str[0]) + Number(str[1]) + Number(str[2]);
+//     let strSecondSum = Number(str[3]) + Number(str[4]) + Number(str[5]);
+//
+//     if (strFirstSum === strSecondSum) {
+//         console.log('yes');
+//     } else {
+//         console.log('no');
+//     }
+// }
+//
+// compareNumSum(num6);
+// compareNumSum(num7);
