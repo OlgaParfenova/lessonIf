@@ -134,3 +134,72 @@
 // } else {
 //     throw new Error('такой даты не существует');
 // }
+
+
+// task 14
+
+// let num = 5;
+//
+// if (num >=10 && num <= 99) {
+//     let sum = num.toString().split('').reduce((a, b) => +a + +b);
+//     if (sum <= 9) {
+//         console.log('сумма цифр однозначна');
+//     } else {
+//         console.log('сумма цифр двузначна');
+//     }
+// } else {
+//     console.log('число не двузначное');
+// }
+
+// task 15
+
+// let lang = 'cn';
+//
+// switch (lang) {
+//     case 'ru':
+//         console.log('рус');
+//         break;
+//     case 'en':
+//         console.log('анг');
+//         break;
+//     case 'de':
+//         console.log('нем');
+//         break;
+//     default:
+//         console.log('язык не поддерживается');
+//         break;
+// }
+
+// task 16
+
+// let num = 1;
+// let res = num >= 0 ? '1' : '2';
+// console.log(res);
+
+// task 17
+
+// let a = 2 * (3 - 1);
+// let b = 6 - 2;
+// console.log(a == b);
+
+// task 18
+
+// let a = 5 * (7 - 4);
+// let b = 1 + 2 + 7;
+// console.log(a > b);
+
+// task 19
+
+// let a = 2 ** 4;
+// let b = 4 ** 2;
+// console.log(a != b);
+
+// task 20
+
+// let verification = confirm('Вам есть 18 лет?');
+//
+// if (verification) {
+//     alert('Текст для взрослых');
+// } else {
+//     alert('Доступ запрещён');
+// }
